@@ -21,7 +21,7 @@ const experience = [
   {
     role: "Laravel Developer (Intern)",
     company: "PT. Agung Tirta Lestari",
-    period: "Oct 2024 — Jan 2024",
+    period: "Oct 2024 — Jan 2025",
     type: "Internship",
     companyIcon: "mdi:company",
     companyColor: "from-orange-500 to-orange-600",
