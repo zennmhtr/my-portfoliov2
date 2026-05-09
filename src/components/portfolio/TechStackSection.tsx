@@ -228,7 +228,7 @@ export default function TechStackSection() {
       <SectionHeader
         tagText="Tech Skills"
         tagIcon="solar:settings-bold"
-        heading="Technology Stack"
+        heading="Technology Stack Skills"
         description="Technologies I use to bring ideas to life"
         showUnderline={false}
         centered={true}
