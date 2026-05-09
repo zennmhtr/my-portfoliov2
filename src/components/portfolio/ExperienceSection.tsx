@@ -5,10 +5,23 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 
 const experience = [
+{
+    role: "Web Developer (Intern)",
+    company: "PT Dharma Controlcable Indonesia II",
+    period: "May 2026 — JNow",
+    type: "Internship",
+    companyIcon: "mdi:company",
+    companyColor: "from-blue-500 to-blue-600",
+    description: "Developed modular Web Developer.",
+    achievements: [
+    ],
+    technologies: ["Laravel", "Web Developer"]
+  },
+
   {
-    role: "Laravel Web Developer (Intern)",
-    company: "PT Agung Tirta Lestari",
-    period: "Oct 2024 — Dec 2024",
+    role: "Laravel Developer (Intern)",
+    company: "PT. Agung Tirta Lestari",
+    period: "Oct 2024 — Jan 2024",
     type: "Internship",
     companyIcon: "mdi:company",
     companyColor: "from-blue-500 to-blue-600",
@@ -22,10 +35,11 @@ const experience = [
     ],
     technologies: ["Laravel", "Blade", "PHP", "JavaScript", "HTML", "CSS", "REST API", "MySQL", "Facial Recognition", "GPS Integration", "AHP Algorithm", "Prototype Development", "Employee"]
   },
+
   {
     role: "PHP Developer (Practical Work)",
     company: "SMK Bina Karya 2 Karawang",
-    period: "May 2024 — Jul 2024",
+    period: "May 2024 — Aug 2024",
     type: "Practical Work",
     companyIcon: "mdi:school",
     companyColor: "from-green-500 to-green-600",
