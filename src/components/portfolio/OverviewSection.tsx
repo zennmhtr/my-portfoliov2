@@ -196,7 +196,7 @@ export default function OverviewSection() {
                       <Icon icon="mdi:company" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Laravel Web Developer (Intern)</h4>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Laravel Developer (Intern)</h4>
                       <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">PT. Agung Tirta Lestari</p>
                       <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">Oct 2024 — Dec 2024</p>
                     </div>
