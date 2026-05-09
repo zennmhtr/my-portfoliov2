@@ -108,12 +108,17 @@ export default function OverviewSection() {
                 <div className="space-y-4 md:space-y-6">
                   <div>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 md:mb-4 text-gray-900 dark:text-white flex items-center gap-2 md:gap-3">
-                      <span className="text-2xl sm:text-3xl md:text-4xl">👋</span>
+                      <img
+                        src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+                        alt="waving hand"
+                        className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
+                        style={{ display: 'inline-block' }}
+                      />
                       Hello, I&apos;m Zaini Muhtarom
                     </h3>
                     <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-4 md:mb-6">
-                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full Web Developer</span> with
-                      <span className="font-bold text-green-600 dark:text-green-400"> 1+ years</span> of experience building 
+                      A passionate <span className="font-bold text-blue-600 dark:text-blue-400">Full-Stack Web Developer</span> with
+                      <span className="font-bold text-green-600 dark:text-green-400"> 1+ years</span> of experience building
                       scalable web applications that users systems.
                     </p>
                   </div>
@@ -121,12 +126,12 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                     I specialize in building scalable web applications using Laravel, PHP and TypeScript. 
-                     I thrive on turning complex problems into elegant, user-centric solutions that drive real business impact.
+                      I specialize in building scalable web applications using Laravel, PHP and TypeScript.
+                      I thrive on turning complex problems into elegant, user-centric solutions that drive real business impact.
                     </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Beyond work, I enjoy exploring emerging technologies, building personal projects to sharpen my skills, 
-                      and sharing knowledge with fellow developers. I believe in continuous learning and staying updated with 
+                      Beyond work, I enjoy exploring emerging technologies, building personal projects to sharpen my skills,
+                      and sharing knowledge with fellow developers. I believe in continuous learning and staying updated with
                       industry trends to deliver better solutions.
                     </p>
                   </div>
@@ -138,7 +143,7 @@ export default function OverviewSection() {
                       Core Technologies
                     </h4>
                     <div className="flex flex-wrap gap-2 md:gap-3">
-                      {[  "Laravel", "PHP", "TypeScript", "Tailwind CSS", "MySQL", "CodeIgniter", "REST API", "JavaScript", "HTML5", "CSS3", "Git"].map((skill, index) => (
+                      {["Laravel", "PHP", "TypeScript", "Tailwind CSS", "MySQL", "CodeIgniter", "REST API", "JavaScript", "HTML5", "CSS3", "Git"].map((skill, index) => (
                         <motion.span
                           key={skill}
                           initial={{ opacity: 0, scale: 0 }}
@@ -161,6 +166,29 @@ export default function OverviewSection() {
                 <motion.div
                   variants={itemVariants}
                   whileHover={{ scale: 1.02, y: -5 }}
+                  className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gradient-to-br from-green-50/80 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 backdrop-blur-sm border border-green-200/50 dark:border-green-800/30 shadow-xl flex flex-col"
+                >
+                  <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
+                    <div className="p-2 md:p-3 bg-green-500 rounded-lg md:rounded-xl shadow-lg">
+                      <Icon icon="mdi:school" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Intern)</h4>
+                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia II</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2026 — Now</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
+                  </p>
+                  <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
+                    <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">Web Developer</span>
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  variants={itemVariants}
+                  whileHover={{ scale: 1.02, y: -5 }}
                   className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gradient-to-br from-blue-50/80 to-blue-100/50 dark:from-blue-950/30 dark:to-blue-900/20 backdrop-blur-sm border border-blue-200/50 dark:border-blue-800/30 shadow-xl flex flex-col"
                 >
                   <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
@@ -174,37 +202,12 @@ export default function OverviewSection() {
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                      Developed scalable Laravel-based attendance and performance appraisal systems, integrating facial recognition for automated clock-in/out validation 
-                      and AHP algorithm for employee performance evaluation.
+                    Developed scalable Laravel-based attendance and performance appraisal systems, integrating facial recognition for automated clock-in/out validation
+                    and AHP algorithm for employee performance evaluation.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
                     <span className="font-semibold text-green-600 dark:text-green-400">Top Rated • 91% Success Score</span>
-                  </div>
-                </motion.div>
-
-                <motion.div
-                  variants={itemVariants}
-                  whileHover={{ scale: 1.02, y: -5 }}
-                  className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gradient-to-br from-green-50/80 to-green-100/50 dark:from-green-950/30 dark:to-green-900/20 backdrop-blur-sm border border-green-200/50 dark:border-green-800/30 shadow-xl flex flex-col"
-                >
-                  <div className="flex items-start gap-3 md:gap-4 mb-3 md:mb-4">
-                    <div className="p-2 md:p-3 bg-green-500 rounded-lg md:rounded-xl shadow-lg">
-                      <Icon icon="mdi:school" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">PHP Developer (Intern)</h4>
-                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">SMK Bina Karya 2 Karawang</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2024 — Jul 2024</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                      Leading digital transformation in student admission processes, developing an online system that streamlined enrollment 
-                      for 250+ students and trained administrative staff on modern admission workflows
-                  </p>
-                  <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
-                    <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
-                    <span className="font-semibold text-blue-600 dark:text-blue-400">School PHP Developer</span>
                   </div>
                 </motion.div>
               </div>
@@ -242,7 +245,7 @@ export default function OverviewSection() {
                     <Icon icon="solar:global-bold" className="text-white w-4 h-4" width={16} height={16} />
                   </div>
                   <div>
-                    <div className="text-sm font-bold text-gray-900 dark:text-white">zainimhtrm.vev</div>
+                    <div className="text-sm font-bold text-gray-900 dark:text-white">zainimuhtarom.vercel.app</div>
                   </div>
                 </motion.div>
 

@@ -68,7 +68,7 @@ const projects = [
     status: "Completed",
     category: "Decision Support System",
     highlight: false,
-    timeline: "2 months",
+    timeline: "3 months",
     clientType: "Company Transportation",
     role: "Full-Stack Web Developer",
   },
@@ -101,7 +101,7 @@ const projects = [
     status: "Completed",
     category: "Web Application",
     highlight: "Featured",
-    timeline: "2 months",
+    timeline: "3 months",
     clientType: "Company Transportation",
     role: "Full-Stack Web Developer",
   },
@@ -231,7 +231,7 @@ export default function ProjectsSection() {
           tagText="Portfolio Showcase"
           tagIcon="solar:code-square-bold"
           heading="Projects Experience"
-          description="Discover my latest work in web development, AI integration, and digital innovation"
+          description="Discover my latest work in web development, API integration, and digital innovation"
           showUnderline={true}
           centered={true}
         />
