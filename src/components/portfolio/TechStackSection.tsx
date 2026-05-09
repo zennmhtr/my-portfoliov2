@@ -63,6 +63,14 @@ const techStackData: Record<string, TechItem[]> = {
       category: "Backend",
       description: "Progressive JavaScript framework for building user interfaces",
       yearsUsed: 0.5
+    },
+    {
+      name: "React.js",
+      icon: "logos:react",
+      level: "Beginner",
+      category: "Backend",
+      description: "JavaScript library for building interactive UIs",
+      yearsUsed: 0.5
     }
   ],
   "Frontend": [
