@@ -67,7 +67,7 @@ const techStackData: Record<string, TechItem[]> = {
     {
       name: "React.js",
       icon: "logos:react",
-      level: "Beginner",
+      level: "Intermediate",
       category: "Backend",
       description: "JavaScript library for building interactive UIs",
       yearsUsed: 0.5
@@ -200,9 +200,9 @@ const techStackData: Record<string, TechItem[]> = {
       name: "Git",
       icon: "devicon:git",
       level: "Intermediate",
-      category: "Cloud & DevOps",
+      category: "Git Tools",
       description: "Version control system",
-      yearsUsed: 0.5
+      yearsUsed: 1
     },
   ],
 };
