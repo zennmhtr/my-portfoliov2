@@ -7,7 +7,7 @@ import SectionHeader from "./SectionHeader";
 const experience = [
 {
     role: "Web Developer (Intern)",
-    company: "PT Dharma Controlcable Indonesia II",
+    company: "PT. Dharma Controlcable Indonesia II",
     period: "May 2026 — Now",
     type: "Internship",
     companyIcon: "mdi:company",
