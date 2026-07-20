@@ -7,19 +7,24 @@ import SectionHeader from "./SectionHeader";
 const experience = [
 {
     role: "Web Developer (Intern)",
-    company: "PT. Dharma Controlcable Indonesia II",
+    company: "PT. Dharma Controlcable Indonesia",
     period: "May 2026 — Now",
     type: "Internship",
     companyIcon: "mdi:company",
     companyColor: "from-blue-500 to-blue-600",
-    description: "Developed modular Web Developer.",
+    description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
     achievements: [
+        "Developed a dynamic organization chart management system using React.js, Javascript, and MongoDB, improving structural change processing efficiency by 35%",
+        "Built a multi-level digital approval workflow (prepared by, checked by, approved by) for organizational documents, reducing manual approval time by 50% compared to paper-based processes",
+        "Designed reusable React components accross multiple modules (Organization Chart, Skill Matrix, Job Description Managament), reducing new feature development time by 25%",
+        "Optimized API and database queries in MongoDB, improving page load performance by 40% for large organizational datasets",
+        "Implemented JWT-based authentication to secure access to organizational data, supporting scalable multi-user access accross departments"
     ],
-    technologies: ["Laravel", "Web Developer"]
+    technologies: ["React", "Javascript", "Tailwind CSS", "MongoDB", "Alibaba Cloud", "REST API", "Structured Organization", "Web System Application"]
   },
 
   {
-    role: "Laravel Developer (Intern)",
+    role: "Web Developer (Research Intern)",
     company: "PT. Agung Tirta Lestari",
     period: "Oct 2024 — Jan 2025",
     type: "Internship",
