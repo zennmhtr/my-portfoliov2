@@ -20,7 +20,7 @@ const experience = [
         "Optimized API and database queries in MongoDB, improving page load performance by 40% for large organizational datasets",
         "Implemented JWT-based authentication to secure access to organizational data, supporting scalable multi-user access accross departments"
     ],
-    technologies: ["React", "Javascript", "Tailwind CSS", "MongoDB", "Alibaba Cloud", "REST API", "Structured Organization", "Web System Application"]
+    technologies: ["React", "Javascript", "Tailwind CSS", "MongoDB", "Alibaba Cloud", "REST API", "Structured Organization", "Organization Chart", "Web System Application"]
   },
 
   {
