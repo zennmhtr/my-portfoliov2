@@ -25,128 +25,129 @@ const techStackData: Record<string, TechItem[]> = {
       yearsUsed: 2
     },
     {
-    name: "JavaScript",
-    icon: "devicon:javascript",
-    level: "Intermediate",
-    category: "Backend",
-    description: "Core programming language for server-side logic and full-stack web development",
-    yearsUsed: 1.5
+      name: "JavaScript",
+      icon: "devicon:javascript",
+      level: "Intermediate",
+      category: "Backend",
+      description: "Core programming language for server-side logic and full-stack web development",
+      yearsUsed: 1.5
     },
     {
-    name: "TypeScript",
-    icon: "devicon:typescript",
-    level: "Beginner",
-    category: "Backend",
-    description: "Strongly-typed superset of JavaScript for building scalable and maintainable applications",
-    yearsUsed: 0.5
+      name: "TypeScript",
+      icon: "devicon:typescript",
+      level: "Beginner",
+      category: "Backend",
+      description: "Strongly-typed superset of JavaScript for building scalable and maintainable applications",
+      yearsUsed: 0.5
     },
     {
-    name: "Laravel",
-    icon: "devicon:laravel",
-    level: "Intermediate",
-    category: "Backend",
-    description: "PHP framework with MVC architecture for building robust web applications and REST APIs",
-    yearsUsed: 1.5
+      name: "Laravel",
+      icon: "devicon:laravel",
+      level: "Intermediate",
+      category: "Backend",
+      description: "PHP framework with MVC architecture for building robust web applications and REST APIs",
+      yearsUsed: 1.5
     },
     {
-    name: "CodeIgniter",
-    icon: "logos:codeigniter",
-    level: "Intermediate",
-    category: "Backend",
-    description: "Lightweight PHP framework for rapid web application development with minimal configuration",
-    yearsUsed: 1.5
-    }
+      name: "CodeIgniter",
+      icon: "logos:codeigniter",
+      level: "Intermediate",
+      category: "Backend",
+      description: "Lightweight PHP framework for rapid web application development with minimal configuration",
+      yearsUsed: 1.5
+    },
   ],
+  
   "Frontend": [
-  {
-    name: "HTML5",
-    icon: "devicon:html5",
-    level: "Advanced",
-    category: "Frontend",
-    description: "Semantic markup language for structuring accessible and SEO-friendly web content",
-    yearsUsed: 2
-  },
-  {
-    name: "CSS3",
-    icon: "devicon:css3",
-    level: "Advanced",
-    category: "Frontend",
-    description: "Styling language for creating responsive layouts, animations, and modern UI designs",
-    yearsUsed: 2
-  },
-  {
-    name: "JavaScript",
-    icon: "devicon:javascript",
-    level: "Intermediate",
-    category: "Frontend",
-    description: "Core scripting language for building interactive and dynamic web experiences",
-    yearsUsed: 1.5
-  },
-  {
-    name: "TypeScript",
-    icon: "devicon:typescript",
-    level: "Beginner",
-    category: "Frontend",
-    description: "Strongly-typed superset of JavaScript for improving code quality and maintainability",
-    yearsUsed: 0.5
-  },
-  {
-    name: "React.js",
-    icon: "logos:react",
-    level: "Intermediate",
-    category: "Frontend",
-    description: "JavaScript library for building dynamic and interactive user interfaces with reusable components",
-    yearsUsed: 0.5
-  },
-  {
-    name: "Vue.js",
-    icon: "logos:vue",
-    level: "Beginner",
-    category: "Frontend",
-    description: "Progressive JavaScript framework for building reactive and component-based user interfaces",
-    yearsUsed: 0.5
-  },
-  {
-    name: "Bootstrap",
-    icon: "devicon:bootstrap",
-    level: "Advanced",
-    category: "Frontend",
-    description: "CSS framework for building responsive and mobile-first web interfaces quickly",
-    yearsUsed: 2
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "devicon:tailwindcss",
-    level: "Beginner",
-    category: "Frontend",
-    description: "Utility-first CSS framework for building custom UI designs without leaving HTML",
-    yearsUsed: 0.5
-  },
-  {
-    name: "Inertia.js",
-    icon: "simple-icons:inertia",
-    level: "Beginner",
-    category: "Frontend",
-    description: "Modern bridge between server-side frameworks (Laravel) and frontend frameworks (React/Vue)",
-    yearsUsed: 0.5
-  },
-  {
-    name: "Leaflet.js",
-    icon: "simple-icons:leaflet",
-    level: "Intermediate",
-    category: "Frontend",
-    description: "Open-source JavaScript library for building interactive and mobile-friendly map applications",
-    yearsUsed: 1
-  },
-  {
-    name: "Figma",
-    icon: "devicon:figma",
-    level: "Intermediate",
-    category: "Design",
-    description: "Collaborative UI/UX design tool for creating wireframes, prototypes, and design systems",
-    yearsUsed: 1
-  },
-],
+    {
+      name: "HTML5",
+      icon: "devicon:html5",
+      level: "Advanced",
+      category: "Frontend",
+      description: "Semantic markup language for structuring accessible and SEO-friendly web content",
+      yearsUsed: 2
+    },
+    {
+      name: "CSS3",
+      icon: "devicon:css3",
+      level: "Advanced",
+      category: "Frontend",
+      description: "Styling language for creating responsive layouts, animations, and modern UI designs",
+      yearsUsed: 2
+    },
+    {
+      name: "JavaScript",
+      icon: "devicon:javascript",
+      level: "Intermediate",
+      category: "Frontend",
+      description: "Core scripting language for building interactive and dynamic web experiences",
+      yearsUsed: 1.5
+    },
+    {
+      name: "TypeScript",
+      icon: "devicon:typescript",
+      level: "Beginner",
+      category: "Frontend",
+      description: "Strongly-typed superset of JavaScript for improving code quality and maintainability",
+      yearsUsed: 0.5
+    },
+    {
+      name: "React.js",
+      icon: "logos:react",
+      level: "Intermediate",
+      category: "Frontend",
+      description: "JavaScript library for building dynamic and interactive user interfaces with reusable components",
+      yearsUsed: 0.5
+    },
+    {
+      name: "Vue.js",
+      icon: "logos:vue",
+      level: "Beginner",
+      category: "Frontend",
+      description: "Progressive JavaScript framework for building reactive and component-based user interfaces",
+      yearsUsed: 0.5
+    },
+    {
+      name: "Bootstrap",
+      icon: "devicon:bootstrap",
+      level: "Advanced",
+      category: "Frontend",
+      description: "CSS framework for building responsive and mobile-first web interfaces quickly",
+      yearsUsed: 2
+    },
+    {
+      name: "Tailwind CSS",
+      icon: "devicon:tailwindcss",
+      level: "Beginner",
+      category: "Frontend",
+      description: "Utility-first CSS framework for building custom UI designs without leaving HTML",
+      yearsUsed: 0.5
+    },
+    {
+      name: "Inertia.js",
+      icon: "simple-icons:inertia",
+      level: "Beginner",
+      category: "Frontend",
+      description: "Modern bridge between server-side frameworks (Laravel) and frontend frameworks (React/Vue)",
+      yearsUsed: 0.5
+    },
+    {
+      name: "Leaflet.js",
+      icon: "simple-icons:leaflet",
+      level: "Intermediate",
+      category: "Frontend",
+      description: "Open-source JavaScript library for building interactive and mobile-friendly map applications",
+      yearsUsed: 1
+    },
+    {
+      name: "Figma",
+      icon: "devicon:figma",
+      level: "Intermediate",
+      category: "Design",
+      description: "Collaborative UI/UX design tool for creating wireframes, prototypes, and design systems",
+      yearsUsed: 1
+    },
+  ],
   "Database & Server": [
     {
       name: "MySQL",
