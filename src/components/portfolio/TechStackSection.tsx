@@ -19,7 +19,7 @@ const techStackData: Record<string, TechItem[]> = {
     {
       name: "PHP",
       icon: "devicon:php",
-      level: "Intermediate",
+      level: "Expert",
       category: "Backend",
       description: "Server-side scripting language for building dynamic web applications and REST APIs",
       yearsUsed: 2
@@ -62,7 +62,7 @@ const techStackData: Record<string, TechItem[]> = {
     {
       name: "HTML5",
       icon: "devicon:html5",
-      level: "Advanced",
+      level: "Expert",
       category: "Frontend",
       description: "Semantic markup language for structuring accessible and SEO-friendly web content",
       yearsUsed: 2
@@ -70,7 +70,7 @@ const techStackData: Record<string, TechItem[]> = {
     {
       name: "CSS3",
       icon: "devicon:css3",
-      level: "Advanced",
+      level: "Expert",
       category: "Frontend",
       description: "Styling language for creating responsive layouts, animations, and modern UI designs",
       yearsUsed: 2
@@ -110,7 +110,7 @@ const techStackData: Record<string, TechItem[]> = {
     {
       name: "Bootstrap",
       icon: "devicon:bootstrap",
-      level: "Advanced",
+      level: "Expert",
       category: "Frontend",
       description: "CSS framework for building responsive and mobile-first web interfaces quickly",
       yearsUsed: 2
