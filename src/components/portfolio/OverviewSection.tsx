@@ -143,7 +143,7 @@ export default function OverviewSection() {
                       Core Technologies
                     </h4>
                     <div className="flex flex-wrap gap-2 md:gap-3">
-                      {["Laravel", "PHP", "TypeScript", "Tailwind CSS", "MySQL", "CodeIgniter", "REST API", "JavaScript", "HTML5", "CSS3", "Git"].map((skill, index) => (
+                      {["Laravel", "Codeigniter", "PHP", "React.js", "TypeScript", "Tailwind CSS", "MySQL", "MongoDB", "REST API", "JavaScript", "HTML5", "CSS3", "Git", "Node.js"].map((skill, index) => (
                         <motion.span
                           key={skill}
                           initial={{ opacity: 0, scale: 0 }}
@@ -175,10 +175,11 @@ export default function OverviewSection() {
                     <div>
                       <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Intern)</h4>
                       <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia II</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2026 — Now</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2026 — Aug 2026</p>
                     </div>
                   </div>
-                  <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
+                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
+                    Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
