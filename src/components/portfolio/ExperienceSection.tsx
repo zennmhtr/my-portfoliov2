@@ -8,7 +8,7 @@ const experience = [
 {
     role: "Web Developer (Intern)",
     company: "PT. Dharma Controlcable Indonesia",
-    period: "May 2026 — Now",
+    period: "May 2026 — Aug 2026",
     type: "Internship",
     companyIcon: "mdi:company",
     companyColor: "from-blue-500 to-blue-600",
