@@ -174,7 +174,7 @@ export default function OverviewSection() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Intern)</h4>
-                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia II</p>
+                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia</p>
                       <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2026 — Aug 2026</p>
                     </div>
                   </div>
@@ -183,7 +183,7 @@ export default function OverviewSection() {
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
-                    <span className="font-semibold text-blue-600 dark:text-blue-400">Web Developer</span>
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">Web Developer (Intern)</span>
                   </div>
                 </motion.div>
 
@@ -197,7 +197,7 @@ export default function OverviewSection() {
                       <Icon icon="mdi:company" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Intern)</h4>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Research Intern)</h4>
                       <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">PT. Agung Tirta Lestari</p>
                       <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">Oct 2024 — Jan 2025</p>
                     </div>
