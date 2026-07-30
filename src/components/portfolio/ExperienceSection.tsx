@@ -8,7 +8,7 @@ const experience = [
 {
     role: "Web Developer (Intern)",
     company: "PT. Dharma Controlcable Indonesia",
-    period: "May 2026 — Aug 2026",
+    period: "May 2026 — August 2026",
     type: "Internship",
     companyIcon: "mdi:company",
     companyColor: "from-blue-500 to-blue-600",
@@ -26,7 +26,7 @@ const experience = [
   {
     role: "Web Developer (Research Intern)",
     company: "PT. Agung Tirta Lestari",
-    period: "Oct 2024 — Jan 2025",
+    period: "October 2024 — January 2025",
     type: "Internship",
     companyIcon: "mdi:company",
     companyColor: "from-orange-500 to-orange-600",
@@ -44,7 +44,7 @@ const experience = [
   {
     role: "PHP Developer (Practical Work)",
     company: "SMK Bina Karya 2 Karawang",
-    period: "May 2024 — Aug 2024",
+    period: "May 2024 — July 2024",
     type: "Practical Work",
     companyIcon: "mdi:school",
     companyColor: "from-green-500 to-green-600",
