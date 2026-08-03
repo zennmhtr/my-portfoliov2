@@ -1,7 +1,5 @@
 # 🚀 Zaini Muhtarom - Portfolio
 
-A stunning, modern portfolio website built with cutting-edge technologies and beautiful animations inspired by [Muhammad Ramazan](https://github.com/lightify97/portfolio)
-
 ![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-brightgreen)
 ![Next.js](https://img.shields.io/badge/Next.js-15.3-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
