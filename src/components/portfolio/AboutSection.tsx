@@ -15,13 +15,13 @@ export default function AboutSection() {
       <h2 className="text-2xl font-bold mb-6">About</h2>
       <div className="max-w-none">
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Hello, World! I am Zaini Muhtarom — a passionate Full Web Developer 
+          Hello, World! I'm Zaini Muhtarom — a passionate Full Web Developer 
           dedicated to building high-performance, user-centric software with intuitive and engaging designs.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
           With 1 years of experience, I specialize in building scalable web and mobile applications using
-          PHP, Javascript, TypeScript, and modern development technologies. I thrive on turning complex problems
-          into elegant solutions that users love.
+          Frontend & Backend in accordance with the necessary requirements, and modern development technologies. 
+          I thrive on turning complex problems into elegant solutions that users love.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
           Beyond work, I love exploring emerging technologies, contributing to open-source projects, and
