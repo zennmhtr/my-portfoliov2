@@ -126,7 +126,7 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                      I specialize in building scalable web applications using Laravel, PHP and TypeScript.
+                      I specialize in building scalable web applications using Frontend & Backend in accordance with the necessary requirements.
                       I thrive on turning complex problems into elegant, user-centric solutions that drive real business impact.
                     </p>
                     <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -179,7 +179,7 @@ export default function OverviewSection() {
                     </div>
                   </div>
                    <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                    Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.
+                    Developed modular a web system application and deployement to server from system Structured Organization at PT. Dharma Controlcable Indonesia.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
