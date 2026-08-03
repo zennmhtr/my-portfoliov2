@@ -20,7 +20,7 @@ export default function AboutSection() {
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
           With 1 years of experience, I specialize in building scalable web and mobile applications using
-          Frontend & Backend in accordance with the necessary requirements, and modern development technologies. 
+          Frontend and Backend in accordance with the necessary requirements, and modern development technologies. 
           I thrive on turning complex problems into elegant solutions that users love.
         </p>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
