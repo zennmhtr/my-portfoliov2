@@ -205,6 +205,14 @@ const techStackData: Record<string, TechItem[]> = {
       description: "Version control system",
       yearsUsed: 1
     },
+    {
+      name: "Docker",
+      icon: "devicon:docker",
+      level: "Beginner",
+      category: "Docker Tools",
+      description: "Version control system",
+      yearsUsed: 0.6
+    },
   ],
 };
 
