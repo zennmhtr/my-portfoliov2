@@ -42,7 +42,7 @@ const projects = [
     category: "Web-Based System Application",
     highlight: "Featured",
     timeline: "3 months",
-    clientType: "Cable & Battery Company",
+    clientType: "PT. Dharma Controlcable Indonesia",
     role: "Full-Stack Web Developer",
   },
   {
@@ -77,7 +77,7 @@ const projects = [
     category: "Web Application",
     highlight: "Featured",
     timeline: "3 months",
-    clientType: "Educational Institution",
+    clientType: "SMK 11 Maret Cikarang",
     role: "Full-Stack Web Developer",
   },
   {
@@ -108,7 +108,7 @@ const projects = [
     category: "Decision Support System",
     highlight: false,
     timeline: "3 months",
-    clientType: "Company Transportation",
+    clientType: "PT Agung Tirta Lestari",
     role: "Full-Stack Web Developer",
   },
   {
@@ -141,7 +141,7 @@ const projects = [
     category: "Web Application",
     highlight: "Featured",
     timeline: "3 months",
-    clientType: "Company Transportation",
+    clientType: "PT Agung Tirta Lestari",
     role: "Full-Stack Web Developer",
   },
   {
@@ -174,7 +174,7 @@ const projects = [
     category: "Web Application",
     highlight: "Featured",
     timeline: "3 months",
-    clientType: "Educational Institution",
+    clientType: "SMK Bina Karya 2 Karawang",
     role: "PHP Developer"
   },
 ];
