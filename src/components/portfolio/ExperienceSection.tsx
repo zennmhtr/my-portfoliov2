@@ -10,7 +10,7 @@ const experience = [
     company: "PT. Dharma Controlcable Indonesia",
     period: "May 2026 — August 2026",
     type: "Internship",
-    companyIcon: "null",
+    companyIcon: "mdi:company",
     companyLogo: "/public/icons/dcci.png",
     companyColor: "from-blue-500 to-blue-600",
     description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
