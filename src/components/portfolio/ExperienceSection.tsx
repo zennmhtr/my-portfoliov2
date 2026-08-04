@@ -144,14 +144,16 @@ export default function ExperienceSection() {
                   <motion.div
                     variants={iconVariants}
                     whileHover={{ scale: 1.1, rotate: 5 }}
-                    className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
+                    className={`w-16 h-16 sm:w-20 sm:h-20 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
                   >
-                    <div className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br ${exp.gradient} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 overflow-hidden relative`}>
+                    <div className={`w-16 h-16 sm:w-20 sm:h-20 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 overflow-hidden relative`}>
                       {exp.companyLogo ? (
                         <img
                           src={exp.companyLogo}
                           alt={exp.company}
-                          className="w-full h-full object-contain p-2 relative z-10"
+                          onError={(e)=>{
+                          e.currentTarget.style.display="none";
+                          }}
                         />
                       ) : (
                         <>
