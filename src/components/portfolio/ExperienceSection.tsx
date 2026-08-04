@@ -10,7 +10,8 @@ const experience = [
     company: "PT. Dharma Controlcable Indonesia",
     period: "May 2026 — August 2026",
     type: "Internship",
-    companyIcon: "mdi:company",
+    companyIcon: "null",
+    companyLogo: "/public/icons/dcci.png",
     companyColor: "from-blue-500 to-blue-600",
     description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
     achievements: [
@@ -145,12 +146,20 @@ export default function ExperienceSection() {
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
                   >
-                    <Icon
-                      icon={exp.companyIcon!}
-                      className="text-white w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 relative z-10"
-                      width={40}
-                      height={40}
-                    />
+                    {exp.companyLogo ? (
+                        <img
+                          src={exp.companyLogo}
+                          alt={exp.company}
+                          className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 object-contain relative z-10"
+                        />
+                        ) : (
+                        <Icon
+                          icon={exp.companyIcon!}
+                          className="text-white w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 relative z-10"
+                          width={40}
+                          height={40}
+                        />
+                      )}
                     {/* Animated background gradient */}
                     <div className={`absolute inset-0 bg-gradient-to-br ${exp.companyColor} opacity-0 group-hover:opacity-20 transition-opacity duration-500`} />
                   </motion.div>
