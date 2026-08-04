@@ -12,7 +12,7 @@ const experience = [
     type: "Internship",
     companyIcon: "mdi:company",
     companyLogo: "/icons/dcci.png",
-    companyColor: "from-[#FFFAF0] to-[#F6F4E8]",
+    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
     description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
     achievements: [
         "Developed a dynamic organization chart management system using React.js, Javascript, and MongoDB, improving structural change processing efficiency by 35%",
