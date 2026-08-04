@@ -11,7 +11,7 @@ const experience = [
     period: "May 2026 — August 2026",
     type: "Internship",
     companyIcon: "mdi:company",
-    companyLogo: "/public/icons/dcci.png",
+    companyLogo: "/icons/dcci.png",
     companyColor: "from-blue-500 to-blue-600",
     description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
     achievements: [
@@ -157,7 +157,7 @@ export default function ExperienceSection() {
                         <>
                           <div className="absolute inset-0 bg-white/10 rounded-2xl" />
                           <Icon
-                            icon={exp.companyIcon!}
+                            icon={exp.companyIcon}
                             className="text-white w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 relative z-10"
                             width={40}
                             height={40}
