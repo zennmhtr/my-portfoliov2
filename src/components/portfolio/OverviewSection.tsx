@@ -204,7 +204,7 @@ export default function OverviewSection() {
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
                    Developed modular a web system application and deployement to server with Alibaba Cloud Server
-                   from system Structured Organization at PT. Dharma Controlcable Indonesia.
+                   from system Structured Organization to HR Digitalization System at PT. Dharma Controlcable Indonesia.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
