@@ -12,7 +12,7 @@ const experience = [
     type: "Internship",
     companyIcon: "mdi:company",
     companyLogo: "/icons/trans-tv.png",
-    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
+    companyColor: "from-[#FFFBF1] to-[#6AECE1]",
     description: "-",
     achievements: [
     ],
@@ -44,7 +44,7 @@ const experience = [
     type: "Internship",
     companyIcon: "mdi:company",
     companyLogo: "/icons/atl.png",
-    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
+    companyColor: "from-[#FFFBF1] to-[#53CBF3]",
     description: "Developed modular Laravel features and optimized front-end components to improve system scalability and user engagement in a fast-paced development environment.",
     achievements: [
        "Developed secure employee attendance system integrating facial recognition and GPS validation, supporting simultaneous check-ins for 25% more concurrent users",
@@ -63,7 +63,7 @@ const experience = [
     type: "Practical Work",
     companyIcon: "mdi:school",
     companyLogo: "/icons/smk-bk2.jpg",
-    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
+    companyColor: "from-[#FFFBF1] to-[#66D0BC]",
     description: "Designed and developed an online Student Admission System using CodeIgniter 3 with scalable architecture to streamline enrollment processes.",
     achievements: [
       "Designed and developed an online Student Admission System using CodeIgniter 3 with scalable architecture",
