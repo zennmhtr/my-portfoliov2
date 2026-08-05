@@ -7,7 +7,7 @@ import SectionHeader from "./SectionHeader";
 const experience = [
   {
     role: "Fullstack Web Developer - HRIS (Intern - Magang Hub)",
-    company: "PT Televisi Transformasi Indonesia (Trans TV)",
+    company: "PT. Televisi Transformasi Indonesia (Trans TV)",
     period: "August 2026 — Now",
     type: "Internship",
     companyIcon: "mdi:company",
