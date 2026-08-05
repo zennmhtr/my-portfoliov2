@@ -97,7 +97,6 @@ export default function OverviewSection() {
             className="lg:col-span-8"
           >
             <div className="space-y-6 md:space-y-8">
-
               {/* Introduction Card */}
               <div className="relative p-4 md:p-6 lg:p-8 rounded-2xl md:rounded-3xl bg-gradient-to-br from-white/90 to-white/50 dark:from-gray-800/90 dark:to-gray-900/50 backdrop-blur-xl border border-white/30 dark:border-gray-700/40 shadow-2xl">
                 {/* Decorative Elements */}
