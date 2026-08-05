@@ -5,7 +5,25 @@ import { motion } from "framer-motion";
 import SectionHeader from "./SectionHeader";
 
 const experience = [
-{
+  {
+    role: "Fullstack Web Developer - HRIS (Intern - Magang Hub)",
+    company: "PT Televisi Transformasi Indonesia (Trans TV)",
+    period: "August 2026 — Now",
+    type: "Internship",
+    companyIcon: "mdi:company",
+    companyLogo: "/icons/dcci.png",
+    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
+    description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
+    achievements: [
+        "Developed a dynamic organization chart management system using React.js, Javascript, and MongoDB, improving structural change processing efficiency by 35%",
+        "Built a multi-level digital approval workflow (prepared by, checked by, approved by) for organizational documents, reducing manual approval time by 50% compared to paper-based processes",
+        "Designed reusable React components accross multiple modules (Organization Chart, Skill Matrix, Job Description Managament), reducing new feature development time by 25%",
+        "Optimized API and database queries in MongoDB, improving page load performance by 40% for large organizational datasets",
+        "Implemented JWT-based authentication to secure access to organizational data, supporting scalable multi-user access accross departments"
+    ],
+    technologies: ["React.js", "Javascript", "Tailwind CSS", "MongoDB", "Alibaba Cloud Server", "REST API", "Structured Organization", "Organization Chart", "Web System Application"]
+  },
+  {
     role: "Web Developer (Intern)",
     company: "PT. Dharma Controlcable Indonesia",
     period: "May 2026 — August 2026",
@@ -147,7 +165,7 @@ export default function ExperienceSection() {
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     className={`w-16 h-16 sm:w-20 sm:h-20 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
                   >
-                    <div className={`w-16 h-16 sm:w-20 sm:h-20 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 overflow-hidden relative`}>
+                    <div className={`w-16 h-16 sm:w-18 sm:h-18 md:w-18 md:h-18 rounded-2xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 overflow-hidden relative`}>
                       {exp.companyLogo ? (
                         <img
                           src={exp.companyLogo}
