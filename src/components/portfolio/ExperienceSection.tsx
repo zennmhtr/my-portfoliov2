@@ -11,17 +11,12 @@ const experience = [
     period: "August 2026 — Now",
     type: "Internship",
     companyIcon: "mdi:company",
-    companyLogo: "/icons/dcci.png",
+    companyLogo: "/icons/trans-tv.png",
     companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
-    description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
+    description: "-",
     achievements: [
-        "Developed a dynamic organization chart management system using React.js, Javascript, and MongoDB, improving structural change processing efficiency by 35%",
-        "Built a multi-level digital approval workflow (prepared by, checked by, approved by) for organizational documents, reducing manual approval time by 50% compared to paper-based processes",
-        "Designed reusable React components accross multiple modules (Organization Chart, Skill Matrix, Job Description Managament), reducing new feature development time by 25%",
-        "Optimized API and database queries in MongoDB, improving page load performance by 40% for large organizational datasets",
-        "Implemented JWT-based authentication to secure access to organizational data, supporting scalable multi-user access accross departments"
     ],
-    technologies: ["React.js", "Javascript", "Tailwind CSS", "MongoDB", "Alibaba Cloud Server", "REST API", "Structured Organization", "Organization Chart", "Web System Application"]
+    technologies: []
   },
   {
     role: "Web Developer (Intern)",
