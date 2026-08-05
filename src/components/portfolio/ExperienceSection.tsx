@@ -12,7 +12,7 @@ const experience = [
     type: "Internship",
     companyIcon: "mdi:company",
     companyLogo: "/icons/trans-tv.png",
-    companyColor: "from-[#FFFBF1] to-[#6AECE1]",
+    companyColor: "from-[#FFFBF1] to-[#FBFBFB]",
     description: "-",
     achievements: [
     ],
@@ -25,7 +25,7 @@ const experience = [
     type: "Internship",
     companyIcon: "mdi:company",
     companyLogo: "/icons/dcci.png",
-    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
+    companyColor: "from-[#FFFBF1] to-[#FBFBFB]",
     description: "Developed modular a web system application to Structured Organization at PT. Dharma Controlcable Indonesia.",
     achievements: [
         "Developed a dynamic organization chart management system using React.js, Javascript, and MongoDB, improving structural change processing efficiency by 35%",
@@ -44,7 +44,7 @@ const experience = [
     type: "Internship",
     companyIcon: "mdi:company",
     companyLogo: "/icons/atl.png",
-    companyColor: "from-[#FFFBF1] to-[#53CBF3]",
+    companyColor: "from-[#FFFBF1] to-[#FBFBFB]",
     description: "Developed modular Laravel features and optimized front-end components to improve system scalability and user engagement in a fast-paced development environment.",
     achievements: [
        "Developed secure employee attendance system integrating facial recognition and GPS validation, supporting simultaneous check-ins for 25% more concurrent users",
@@ -63,7 +63,7 @@ const experience = [
     type: "Practical Work",
     companyIcon: "mdi:school",
     companyLogo: "/icons/smk-bk2.jpg",
-    companyColor: "from-[#FFFBF1] to-[#66D0BC]",
+    companyColor: "from-[#FFFBF1] to-[#FBFBFB]",
     description: "Designed and developed an online Student Admission System using CodeIgniter 3 with scalable architecture to streamline enrollment processes.",
     achievements: [
       "Designed and developed an online Student Admission System using CodeIgniter 3 with scalable architecture",
