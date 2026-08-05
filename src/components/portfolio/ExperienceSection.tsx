@@ -30,7 +30,8 @@ const experience = [
     period: "October 2024 — January 2025",
     type: "Internship",
     companyIcon: "mdi:company",
-    companyColor: "from-orange-500 to-orange-600",
+    companyLogo: "/icons/atl.png",
+    companyColor: "from-[#00B7B5] to-[#018790]",
     description: "Developed modular Laravel features and optimized front-end components to improve system scalability and user engagement in a fast-paced development environment.",
     achievements: [
        "Developed secure employee attendance system integrating facial recognition and GPS validation, supporting simultaneous check-ins for 25% more concurrent users",
