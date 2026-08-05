@@ -62,7 +62,8 @@ const experience = [
     period: "May 2024 — July 2024",
     type: "Practical Work",
     companyIcon: "mdi:school",
-    companyColor: "from-green-500 to-green-600",
+    companyLogo: "/icons/smk-bk2.jpg",
+    companyColor: "from-[#FFFBF1] to-[#FFFBF1]",
     description: "Designed and developed an online Student Admission System using CodeIgniter 3 with scalable architecture to streamline enrollment processes.",
     achievements: [
       "Designed and developed an online Student Admission System using CodeIgniter 3 with scalable architecture",
