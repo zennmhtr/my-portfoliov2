@@ -173,17 +173,17 @@ export default function OverviewSection() {
                       <Icon icon="mdi:company" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Intern)</h4>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Fullstack Web Developer - HRIS (Intern)</h4>
                       <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2026 — Aug 2026</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">August 2026 — Now</p>
                     </div>
                   </div>
                    <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                    Developed modular a web system application and deployement to server from system Structured Organization at PT. Dharma Controlcable Indonesia.
+                    
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:shield-check-bold" className="text-blue-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
-                    <span className="font-semibold text-blue-600 dark:text-blue-400">Web Developer (Intern)</span>
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">Fullstack Web Developer (Magang Hub)</span>
                   </div>
                 </motion.div>
 
@@ -197,14 +197,14 @@ export default function OverviewSection() {
                       <Icon icon="mdi:company" className="text-white w-5 md:w-6 h-5 md:h-6" width={24} height={24} />
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Research Intern)</h4>
-                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">PT. Agung Tirta Lestari</p>
-                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">Oct 2024 — Jan 2025</p>
+                      <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Web Developer (Intern)</h4>
+                      <p className="text-blue-600 dark:text-blue-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia</p>
+                      <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">May 2026 — August 2026</p>
                     </div>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300 text-xs md:text-sm leading-relaxed mb-2 md:mb-3 flex-1">
-                    Developed scalable Laravel-based attendance and performance appraisal systems, integrating facial recognition for automated clock-in/out validation
-                    and AHP algorithm for employee performance evaluation.
+                   Developed modular a web system application and deployement to server with Alibaba Cloud Server
+                   from system Structured Organization at PT. Dharma Controlcable Indonesia.
                   </p>
                   <div className="flex items-center gap-2 text-xs md:text-sm mt-auto">
                     <Icon icon="solar:star-bold" className="text-yellow-500 w-3 md:w-4 h-3 md:h-4" width={16} height={16} />
