@@ -70,7 +70,7 @@ export default function HeroSection() {
           transition={{ delay: 1.0 }}
         >
           {[
-            { href: "https://github.com/zennmhtr",       icon: "simple-icons:github",       label: "GitHub",    color: "hover:text-gray-900 dark:hover:text-white" },
+            { href: "https://github.com/zennmhtr",       icon: "simple-icons:github",       label: "GitHub",    color: "hover:text-red-600" },
             { href: "https://linkedin.com/in/zennmhtr",  icon: "skill-icons:linkedin",       label: "LinkedIn",  color: "hover:text-blue-600" },
             { href: "mailto:zainimhtrm@gmail.com",       icon: "material-icon-theme:email",  label: "Email",     color: "hover:text-green-600" },
             { href: "https://instagram.com/zennmhtr",    icon: "skill-icons:instagram",      label: "Instagram", color: "hover:text-pink-600" },
