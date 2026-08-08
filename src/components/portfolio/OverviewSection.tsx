@@ -173,7 +173,7 @@ export default function OverviewSection() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">Fullstack Web Developer - HRIS (Intern)</h4>
-                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Dharma Controlcable Indonesia</p>
+                      <p className="text-green-600 dark:text-green-400 font-medium text-sm md:text-base">PT. Televisi Transformasi Indonesia</p>
                       <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400 mt-1">August 2026 — Now</p>
                     </div>
                   </div>
